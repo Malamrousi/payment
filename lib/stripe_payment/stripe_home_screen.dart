@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:payment_flutter/stripe_payment/payment_manger.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class StripeHomeScreen extends StatelessWidget {
+  const StripeHomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

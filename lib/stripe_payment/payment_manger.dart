@@ -20,7 +20,7 @@ class PaymentManger {
     SetupPaymentSheetParameters paymentSheetParameters =
         SetupPaymentSheetParameters(
       paymentIntentClientSecret: clientSecret,
-      merchantDisplayName: 'Your Merchant Name', 
+      merchantDisplayName: 'Your Merchant Name',    
     );
     await Stripe.instance
         .initPaymentSheet(paymentSheetParameters: paymentSheetParameters);
@@ -42,4 +42,5 @@ class PaymentManger {
 
     return response.data["client_secret"];
   }
+
 }
