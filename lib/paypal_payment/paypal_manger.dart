@@ -14,7 +14,7 @@ class PaypalManger {
         transactions: const [
           {
             "amount": {
-              "total": '10',
+              "total": '70',
               "currency": "USD",
               "details": {
                 "subtotal": '70',
