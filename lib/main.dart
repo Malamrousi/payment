@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
-import 'package:payment_flutter/paymob_paymet/paymob_home_screen.dart';
 import 'package:payment_flutter/stripe_payment/api_key.dart';
+
+import 'paypal_payment/paypal_home_screen.dart';
 
 void main() {
   Stripe.publishableKey = ApiKey.publishableKey;
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: PaymobHomeScreen(),
+      home: PaypalHomeScreen(),
     );
   }
 }

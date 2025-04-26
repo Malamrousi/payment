@@ -45,3 +45,4 @@ app.*.map.json
 /android/app/release
 lib/stripe_payment/api_key.dart
 lib/paymob_paymet/paymob_key.dart
+lib/paypal_payment/paypal_key.dart
